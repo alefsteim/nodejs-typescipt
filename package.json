@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-typescipt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node ./main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lordofwrath/nodejs-typescipt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lordofwrath/nodejs-typescipt/issues"
+  },
+  "homepage": "https://github.com/lordofwrath/nodejs-typescipt#readme",
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.3"
+  }
+}
