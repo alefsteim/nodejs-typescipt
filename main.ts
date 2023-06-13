@@ -2,6 +2,7 @@ import * as util from 'util';
 import * as fs from 'fs';
 import touch from './utils/touch';
 import cat from './utils/cat';
+import testEmitter from './event-emitter/emitter-set-timeout';
 
 const command = process.argv[2];
 const path = process.argv[3];
@@ -23,3 +24,5 @@ if (command && path) {
 } else {
     console.log('Command missing');
 }
+
+testEmitter();
